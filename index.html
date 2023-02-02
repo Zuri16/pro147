@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene background="color: #000000">
+
+        <!--Cámara-->
+        <a-entity position="0 3 -10">
+            <a-camera></a-camera>
+        </a-entity>
+
+        <!--Cielo-->
+        <a-sky src="https://st3.depositphotos.com/2788739/15166/i/600/depositphotos_151668062-stock-photo-beautiful-sunset-sky-background.jpg">
+
+        </a-sky>
+
+        <!--Piso-->
+        <a-entity>
+            <a-plane position="0 -3 -20" width="28" height="16" rotation="-90 0 0" 
+             src="https://i0.wp.com/academiadediseno.com/wp-content/uploads/2022/02/descargar-texturas-de-madera-para-sketchup-13.jpg?resize=1000%2C1000&ssl=1"></a-plane>
+
+            <a-plane position="0 -2.8 -18" width="14" height="8" rotation="-90 0 0"
+              src="https://thumbs.dreamstime.com/b/textura-de-la-alfombra-blanca-con-pila-larga-una-re-149578409.jpg"></a-plane>
+        </a-entity>
+
+        <!--Muro-->
+        <a-entity position="0 0 0" rotation="0 0 0">
+            <a-plane position="0 4 -26" width="30" height="20" rotation="0 0 0" 
+            src="https://previews.123rf.com/images/andreykuzmin/andreykuzmin1506/andreykuzmin150600013/41021062-seamless-blanco-pared-de-ladrillo-patr%C3%B3n-de-textura-de-fondo.jpg"></a-plane>
+
+            <a-circle position="6 9 -25.9" radius="2.5"
+             src="https://ae01.alicdn.com/kf/Hab1093a6a3a94245ac7414f01f04b8b8D/Reloj-de-pared-con-patr-n-personalizado-arte-moderno-estilo-romano-textura-reloj-de-cuarzo-silencioso.jpg_Q90.jpg_.webp"></a-circle>
+        </a-entity>
+
+            <a-entity>
+             <!--Mueble-->
+            <a-box position="-12 3.2 -26" width="1" height="12.5" rotation="0 0 0"
+             src="https://images.unsplash.com/photo-1525947088131-b701cd0f6dc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGV4dHVyYSUyMGRlJTIwbWFkZXJhJTIwb3NjdXJhfGVufDB8fDB8fA%3D%3D&w=1000&q=80"> </a-box>
+             <a-box position="-12 3.2 -25" width="1" height="12.5" rotation="0 0 0"
+             src="https://images.unsplash.com/photo-1525947088131-b701cd0f6dc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGV4dHVyYSUyMGRlJTIwbWFkZXJhJTIwb3NjdXJhfGVufDB8fDB8fA%3D%3D&w=1000&q=80"> </a-box>
+            <a-box position="-5 3.2 -26" width="1" height="12.5"rotation="0 0 0"
+             src="https://images.unsplash.com/photo-1525947088131-b701cd0f6dc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGV4dHVyYSUyMGRlJTIwbWFkZXJhJTIwb3NjdXJhfGVufDB8fDB8fA%3D%3D&w=1000&q=80"> </a-box>
+             <a-box position="-5 3.2 -25" width="1" height="12.5"rotation="0 0 0"
+             src="https://images.unsplash.com/photo-1525947088131-b701cd0f6dc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGV4dHVyYSUyMGRlJTIwbWFkZXJhJTIwb3NjdXJhfGVufDB8fDB8fA%3D%3D&w=1000&q=80"> </a-box>
+            <a-box position="-8.5 10 -26" width="8" height="1" rotation="0 0 0"
+             src="https://images.unsplash.com/photo-1525947088131-b701cd0f6dc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGV4dHVyYSUyMGRlJTIwbWFkZXJhJTIwb3NjdXJhfGVufDB8fDB8fA%3D%3D&w=1000&q=80"> </a-box>
+             <a-box position="-8.5 10 -25" width="8" height="1" rotation="0 0 0"
+             src="https://images.unsplash.com/photo-1525947088131-b701cd0f6dc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGV4dHVyYSUyMGRlJTIwbWFkZXJhJTIwb3NjdXJhfGVufDB8fDB8fA%3D%3D&w=1000&q=80"> </a-box>
+            <a-box position="-8.5 7 -26" width="5.7" height="0.7" rotation="0 0 0"
+             src="https://images.unsplash.com/photo-1525947088131-b701cd0f6dc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGV4dHVyYSUyMGRlJTIwbWFkZXJhJTIwb3NjdXJhfGVufDB8fDB8fA%3D%3D&w=1000&q=80"> </a-box>
+             <a-box position="-8.5 7 -25" width="5.7" height="0.7" rotation="0 0 0"
+             src="https://images.unsplash.com/photo-1525947088131-b701cd0f6dc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGV4dHVyYSUyMGRlJTIwbWFkZXJhJTIwb3NjdXJhfGVufDB8fDB8fA%3D%3D&w=1000&q=80"> </a-box>
+            <a-box position="-8.5 4 -26" width="5.7" height="0.7" rotation="0 0 0"
+             src="https://images.unsplash.com/photo-1525947088131-b701cd0f6dc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGV4dHVyYSUyMGRlJTIwbWFkZXJhJTIwb3NjdXJhfGVufDB8fDB8fA%3D%3D&w=1000&q=80"> </a-box>
+             <a-box position="-8.5 4 -25" width="5.7" height="0.7" rotation="0 0 0"
+             src="https://images.unsplash.com/photo-1525947088131-b701cd0f6dc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGV4dHVyYSUyMGRlJTIwbWFkZXJhJTIwb3NjdXJhfGVufDB8fDB8fA%3D%3D&w=1000&q=80"> </a-box>
+            <a-box position="-8.5 0.7 -26" width="5.7" height="0.7" rotation="0 0 0"
+             src="https://images.unsplash.com/photo-1525947088131-b701cd0f6dc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGV4dHVyYSUyMGRlJTIwbWFkZXJhJTIwb3NjdXJhfGVufDB8fDB8fA%3D%3D&w=1000&q=80"> </a-box>
+             <a-box position="-8.5 0.7 -25" width="5.7" height="0.7" rotation="0 0 0"
+             src="https://images.unsplash.com/photo-1525947088131-b701cd0f6dc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGV4dHVyYSUyMGRlJTIwbWFkZXJhJTIwb3NjdXJhfGVufDB8fDB8fA%3D%3D&w=1000&q=80"> </a-box>
+            <a-plane position="-8 3 -25.8" width="7" height="14" rotation="0 0 0" 
+             src="https://images.unsplash.com/photo-1525947088131-b701cd0f6dc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGV4dHVyYSUyMGRlJTIwbWFkZXJhJTIwb3NjdXJhfGVufDB8fDB8fA%3D%3D&w=1000&q=80"></a-plane>
+
+            <!--Decoracion muebles-->
+            <a-plane position="-10 8.4 -25.7" width="2" height="2" rotation="0 0 0" 
+             src="https://i0.wp.com/artefeed.com/wp-content/uploads/2022/01/e43c6f375bd142517b7da870d4ca550e.jpeg?fit=1024%2C1024&ssl=1"></a-plane>
+
+            <a-cylinder position="-10 4.7 -25" radius="0.4" height="1" rotation="0 0 0" 
+             src="https://thumbs.dreamstime.com/b/textura-de-fondo-pared-arcilla-roja-natural-188241094.jpg"></a-cylinder>
+             <a-cylinder position="-10 4.7 -25" radius="0.05" height="2" rotation="20 0 0" 
+             src="https://thumbs.dreamstime.com/b/textura-de-cart%C3%B3n-madera-color-turquesa-157585033.jpg"></a-cylinder>
+             <a-cylinder position="-10 4.7 -25" radius="0.05" height="2" rotation="-20 0 0" 
+             src="https://thumbs.dreamstime.com/b/textura-de-cart%C3%B3n-madera-color-turquesa-157585033.jpg"></a-cylinder>
+             <a-cylinder position="-10 4.7 -25" radius="0.05" height="2" rotation="10 0 0" 
+             src="https://thumbs.dreamstime.com/b/textura-de-cart%C3%B3n-madera-color-turquesa-157585033.jpg"></a-cylinder>
+             <a-cylinder position="-10 4.7 -25" radius="0.05" height="2" rotation="-10 0 0" 
+             src="https://thumbs.dreamstime.com/b/textura-de-cart%C3%B3n-madera-color-turquesa-157585033.jpg"></a-cylinder>
+            </a-entity>
+
+        <a-entity>
+            <!--Escritorio  -->
+            <a-box position="6 1.5 -24.8" width="10" height="5" rotation="90 0 0" 
+             src="https://media.istockphoto.com/id/638601822/es/foto/textura-de-escritorio-de-madera.jpg?s=170667a&w=0&k=20&c=ItLsmC_kU3GPoSeFxPzPVeEYpntqrL71FfuEtjwLDQo="></a-box>
+            <a-box position="2 -1 -22.8" width="1" height="4" rotation="0 0 0" 
+             src="https://media.istockphoto.com/id/638601822/es/foto/textura-de-escritorio-de-madera.jpg?s=170667a&w=0&k=20&c=ItLsmC_kU3GPoSeFxPzPVeEYpntqrL71FfuEtjwLDQo="></a-box>
+            <a-box position="9.5 -1 -22.8" width="1" height="4" rotation="0 0 0" 
+             src="https://media.istockphoto.com/id/638601822/es/foto/textura-de-escritorio-de-madera.jpg?s=170667a&w=0&k=20&c=ItLsmC_kU3GPoSeFxPzPVeEYpntqrL71FfuEtjwLDQo="></a-box>
+
+            <!--Escritorio  -->
+            <a-cylinder position="4.5 -1 -19" radius="1.3" height="2.3" rotation="0 0 0" 
+             src="https://thumbs.dreamstime.com/b/textura-de-tela-beige-utilizada-para-sillas-o-sof%C3%A1-funda-mobiliario-almohada-fondo-armaz%C3%B3n-foto-alta-calidad-211907829.jpg"></a-cylinder>
+        </a-entity>
+        
+    </a-scene>
+</body>
+
+</html>
